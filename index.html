@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <header>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Digital Disaster FanSite</title>
+    </header>
+
+    <body>
+        <div id="header">
+            <img id="header-img" src="./images/digitaldisasterlogo.png" alt="logo">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#products">Our Products</a>
+                <a class="nav-link" href="#videopres">Video Presentation</a>
+                <a class="nav-link" href="#tiers">Tiers and Prices</a>
+            </nav>
+        </div>
+
+        <a name="products"></a>
+        <div class="products">
+
+        </div>
+
+        <a name="videopres"></a>
+        <div class="video-pres">
+            <video controls width="250" id="video">
+                <source src="./videos/sample-mp4-file-small.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>video content taken from <a href="https://www.learningcontainer.com">Learning Container</a> for training purposes</p>
+
+        </div>
+
+        <a name="tiers"></a>
+        <div class="tiers">
+
+        </div>
+
+        <div class="contact-us">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label class="label-form" id="name-label" for "name">Your Name</label>
+                <input id="name" type="text" placeholder="please enter your name here" required/>
+                <label class="label-form" id="email-label" for "email">Your E-mail address</label>
+                <input id="email" type="email" placeholder="enter your e-mail address" required/>
+                <label class="label-form" id="feedback-label" for "feedback"></label>
+                <textarea id="feedback" name="feedback" placeholder="Tell us how we do" rows="10" cols="100"></textarea>                </text> 
+                
+                <h4>Would you like to receive our Newsletter?</h4>
+
+                <label class="radio-label">
+                    <input name="yes" value="yes" type="radio" class="input-radio" checked/>
+                    Yes
+                </label>
+                <label class="radio-label">
+                    <input name="no" value="no" type="radio" class="input-radio" />
+                    No
+                </label>
+    
+                <button onclick="document.location='www.freecodecamp.org/email-submit'" type="submit" id="submit" class="submit-button"> Submit Feedback</button>
+    
+            </form>
+
+        </div>
+    </body>
+</html>
