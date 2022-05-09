@@ -13,17 +13,17 @@
             
             <div class="navigation">
                 <nav id="nav-bar">
-                    <a class="nav-link" href="#products">Our Products</a>
-                    <a class="nav-link" href="#videopres">Video Presentation</a>
-                    <a class="nav-link" href="#tiers">Tiers and Prices</a>
+                    <a class="nav-link" href="#videopres-anchor">Video Presentation</a>
+                    <a class="nav-link" href="#tiers-anchor">Tiers and Prices</a>
+                    <a class="nav-link" href="#contact-anchor">Contact us</a>
                 </nav>
             </div>
         </div>
 
-        <a name="products"></a>
+        
 
         <div class="prod-container">
-            <h2>ENJOY A RANGE OF OUR PRODUCTS</h2>
+            <h2 id="product-anchor">ENJOY A RANGE OF OUR PRODUCTS</h2>
             <div class="prod-content-container">
                 <div class="prod-img">
                     <img src="./images/p1.png" alt="VR">
@@ -44,11 +44,11 @@
 
        
 
-        <a name="videopres"></a>
+     
         
         <div class="video-pres">
 
-            <h1> THIS PART JUST SHOWS AS VIDEO</h1>
+            <h1 id="videopres-anchor"> THIS PART JUST SHOWS AS VIDEO</h1>
             <video controls width="250" id="video">
                 <source src="./videos/sample-mp4-file-small.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -60,7 +60,7 @@
         <a name="tiers"></a>
         <div class="tiers">
 
-            <h2>YOU CAN ENJOY FOLLOWING TIERS</h2>
+            <h2 id="tiers-anchor">YOU CAN ENJOY FOLLOWING TIERS</h2>
             <div class="tiers2">
                 <div class="tiers-products">
                     <div class="tiers-stuff">
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <div class="contact-us">
+        <div class="contact-us" id="contact-anchor">
             <form action="https://www.freecodecamp.com/email-submit" id="form">
                 
                 <div class="form">
@@ -95,7 +95,7 @@
                 </div>
                 <div class="form">
                     <label class="label-form" id="email-label" for "email">Your E-mail address</label>
-                    <input id="email" type="email" placeholder="enter your e-mail address" required/>
+                    <input id="email" type="email" placeholder="enter your e-mail address" name ="email" required/>
                 </div>
                 <div class="form">
                     <label class="label-form" id="feedback-label" for "feedback"></label>
