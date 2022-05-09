@@ -21,9 +21,28 @@
         </div>
 
         <a name="products"></a>
-        <div class="products">
 
+        <div class="prod-container">
+            <h2>ENJOY A RANGE OF OUR PRODUCTS</h2>
+            <div class="prod-content-container">
+                <div class="prod-img">
+                    <img src="./images/p1.png" alt="VR">
+                    <img src="./images/p2.png" alt="Video">
+                    <img src="./images/p3.png" alt="Sound">
+                    <img src="./images/p4.png" alt="Award">
+                    <img src="./images/p5.png" alt="Fans">
+                </div>
+                <div class="prod-text">
+                    <p> Great VR Experience with Digital Disaster VR Expierence</p>
+                    <p> Great video editing with our Digital Disaster Amazing Video Editing Software</p>    
+                    <p> Great sound editing with our Digital Disaster Amazing Sound Studio</p>                       
+                    <p> Great Award winning Tech Awards</p>
+                    <p> Great Fan Tiers with Digitial Disaster Amazing Fan Tiers</p>
+                </div>
+            </div>
         </div>
+
+       
 
         <a name="videopres"></a>
         
@@ -41,29 +60,68 @@
         <a name="tiers"></a>
         <div class="tiers">
 
+            <h2>YOU CAN ENJOY FOLLOWING TIERS</h2>
+            <div class="tiers2">
+                <div class="tiers-products">
+                    <div class="tiers-stuff">
+                        <h4>LOW FAN</h4>
+                        <p>Enjoy limited stuff</p>
+                        <h6>just 3000 Euro a month</h6>
+                    </div>
+                </div>
+                <div class="tiers-products">
+                    <div class="tiers-stuff">
+                        <h4>MEDIUM FAN</h4>
+                        <p>Enjoy a bit more stuff</p>
+                        <h6>just 6000 Euro a month</h6>
+                    </div>
+                </div>
+                <div class="tiers-products">
+                    <div class="tiers-stuff">
+                        <h4>BIG FAN</h4>
+                        <p>Enjoy a lots of stuff</p>
+                        <h6>just 9000 Euro a month</h6>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="contact-us">
             <form action="https://www.freecodecamp.com/email-submit" id="form">
-                <label class="label-form" id="name-label" for "name">Your Name</label>
-                <input id="name" type="text" placeholder="please enter your name here" required/>
-                <label class="label-form" id="email-label" for "email">Your E-mail address</label>
-                <input id="email" type="email" placeholder="enter your e-mail address" required/>
-                <label class="label-form" id="feedback-label" for "feedback"></label>
-                <textarea id="feedback" name="feedback" placeholder="Tell us how we do" rows="10" cols="100"></textarea>                </text> 
                 
-                <h4>Would you like to receive our Newsletter?</h4>
+                <div class="form">
+                    <label class="label-form" id="name-label" for "name">Your Name</label>
+                    <input id="name" type="text" placeholder="please enter your name here" required/>
+                </div>
+                <div class="form">
+                    <label class="label-form" id="email-label" for "email">Your E-mail address</label>
+                    <input id="email" type="email" placeholder="enter your e-mail address" required/>
+                </div>
+                <div class="form">
+                    <label class="label-form" id="feedback-label" for "feedback"></label>
+                    <textarea id="feedback" name="feedback" placeholder="Tell us how we do" rows="10" cols="100"></textarea>                </text> 
+                </div>
 
-                <label class="radio-label">
-                    <input name="yes" value="yes" type="radio" class="input-radio" checked/>
-                    Yes
-                </label>
-                <label class="radio-label">
-                    <input name="no" value="no" type="radio" class="input-radio" />
-                    No
-                </label>
-    
-                <button onclick="document.location='www.freecodecamp.org/email-submit'" type="submit" id="submit" class="submit-button"> Submit Feedback</button>
+                <div class="form-box">
+                    <h4 id="newsl">Would you like to receive our Newsletter?</h4>
+
+                    <div class="form-radio">
+                        <label class="radio-label">
+                            <input name="newsletter" value="yes" type="radio" class="input-radio" checked/>
+                            Yes
+                        </label>
+                    
+                    
+                        <label class="radio-label">
+                        <input name="newsletter" value="no" type="radio" class="input-radio" />
+                        No
+                        </label>
+                    </div>
+                </div>
+    <!--
+                <button type="submit" id="submit" class="submit-button"> Submit Feedback</button> -->
+
+                <input id="submit" type="submit" value="Submit"> 
     
             </form>
 
